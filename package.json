@@ -1,6 +1,6 @@
 {
   "name": "nodeos-git-installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for NodeOS to install packages from git repositories.",
   "main": "lib/index.js",
   "scripts": {

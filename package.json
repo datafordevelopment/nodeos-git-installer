@@ -1,0 +1,29 @@
+{
+  "name": "nodeos-git-installer",
+  "version": "1.0.0",
+  "description": "A package for NodeOS to install packages from git repositories.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gitpkg -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tross-software-and-tech/nodeos-git-installer.git"
+  },
+  "keywords": [
+    "NodeOS",
+    "git",
+    "installer",
+    "package",
+    "repository"
+  ],
+  "author": "Tross Software and Tech",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tross-software-and-tech/nodeos-git-installer/issues"
+  },
+  "homepage": "https://github.com/tross-software-and-tech/nodeos-git-installer#readme",
+  "dependencies": {
+   "gitlet-for-nodeos": "*"
+  }
+}

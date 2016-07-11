@@ -4,7 +4,10 @@
   "description": "A package for NodeOS to install packages from git repositories.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "gitpkg -v"
+    "test": "gitpkg"
+  },
+  "bin": {
+   "gitpkg": "lib/index.js"
   },
   "repository": {
     "type": "git",
